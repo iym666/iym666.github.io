@@ -1,0 +1,176 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+body {
+  margin: 0;
+  font-size: 22px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  box-sizing: border-box;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > img {
+  height: 50px;
+  padding-top: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+  padding-right: 20px;
+}
+
+main {
+  top: 69px;
+  position: relative;
+}
+
+.mission-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 700px;
+  z-index: -1;
+  position: relative;
+  background-image: url("../images/mission-background.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.mission-description {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: black;
+  opacity: 1;
+}
+
+.mission-description h2,
+h4 {
+  margin: 10px 10px 0 0;
+}
+
+.tea-month-container {
+  width: 1000px;
+  margin-top: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tea-month-description {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea-month-types {
+  display: flex;
+  /* flex: 1 1 0; */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.tea-month-types-desc {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.tea-month-types-desc > img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-month-types-desc > h3 {
+  margin-top: 10px;
+}
+
+.locations-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 1200px;
+  height: 500px;
+  z-index: -1;
+  position: relative;
+  background-image: url("../images/locations-background.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.locations-container > h2 {
+  background-color: transparent;
+  margin: 15px 0;
+}
+
+.locations-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-color: black;
+  opacity: 1;
+}
+
+.locations-cards-desc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  flex: 1;
+  background-color: black;
+  border: 5px solid #fff;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+.footer-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.footer-des {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  height: 200px;
+}
+
+.footer-des > h2 {
+  margin: 0;
+}
+
+.footer-copyright {
+  padding-left: 20px;
+}
